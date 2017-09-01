@@ -9,6 +9,9 @@ public class BalancoTrimestral {
 		
 		int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
 		
+		int mediaMensal = gastosJaneiro + gastosFevereiro + gastosMarco / 3;
+
 		System.out.println("Gasto do trimestre: R$" + gastosTrimestre);
+		System.out.println("Valor da média mensal = " + mediaMensal);
 	}
 }
